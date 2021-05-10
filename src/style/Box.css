@@ -1,0 +1,23 @@
+.Box {
+    background-color:slategray;
+    height: 10vw;
+    width: 10vw;
+    border-style: solid;
+    border-width: 3px;
+    border-color: azure;
+    text-align: center;
+    font-size: 6vw;
+    justify-content: center;
+    align-items: center;
+    color: rgba(240, 255, 255, 1);
+    position: relative;
+}
+
+.red-font {
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
